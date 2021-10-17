@@ -1,0 +1,128 @@
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.navbar {
+    border-top: red 1px solid;
+    border-bottom: red 1px solid;
+}
+.navbar-brand {
+    color: aqua !important;
+    font-size: 20px;
+}
+
+#headerSection {
+    background: url('../images/top2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    
+}
+ div#copyright {
+	 	font-family: 'Bitter', serif;
+		width: 100%;
+		background: black;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 20px 0;
+		text-align: center;
+		margin-bottom: 0px;
+}
+
+ /* *** Footer Başlangıç *** */
+section#contact{
+	width: 100%;
+	padding: 100px 0;
+	position: relative;
+	background: url(../images/footer-bg.png);
+}
+footer div#footerContainer{
+    width: 1200px;
+    position: relative;
+    margin: auto;
+
+}
+footer div#footerContainer div.footerBox{
+	width: 400px;
+	text-align: center;
+	color: white;
+	float: left;
+}
+footer div#footerContainer div.footerBox p{
+	text-align: left;
+	line-height: 30px;
+	width: 350px;
+	margin: auto;
+}
+
+footer div#footerContainer div.footerBox h1 {
+	
+		font-size: 60px;
+		margin-top: 15px;
+		
+	}
+footer div#footerContainer div.footerBox h2 {
+		font-size: 30px;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 350px;
+		margin: auto;
+	}
+footer div#footerContainer div.footerBox input {
+		width: 300px;
+		height: 40px;
+		margin-top: 20px;
+	}
+
+	 div#copyright {
+	 	font-family: 'Bitter', serif;
+		width: 100%;
+		background: black;
+		color: #ffffff;
+		font-size: 14px;
+		padding: 20px 0;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+section#contact div.footerBox{
+	width: 400px;
+	text-align: center;
+	color: white;
+	float: left;
+}
+section#contact div.footerBox p{
+	text-align: left;
+	line-height: 30px;
+	width: 350px;
+	margin-left: auto;
+}
+section#contact div.footerBox h1 {
+    font-size: 60px;
+	 	margin-top: 15px;
+        margin-left: auto;
+	}
+section#contact div.footerBox h2 {
+		font-size: 30px;
+		line-height: 60px;
+		border-bottom: 2px solid #e74c3c;
+		width: 350px;
+		margin-left: auto;
+	}
+
+
