@@ -1,2 +1,3 @@
-# http://fc-arsenal.cf/
+# https://muradhaqverdiyev.github.io/fc-arsenal/
+
 html, css, bootstrap
